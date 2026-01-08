@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CV | Jesús Sabas Castañeda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body{
+      background:#f4f6f9;
+      font-family:'Segoe UI', sans-serif;
+    }
+    .titulo{
+      color:#0a3d91;
+      font-weight:700;
+      margin-bottom:15px;
+    }
+    .card{
+      border:none;
+      border-radius:20px;
+      box-shadow:0 10px 25px rgba(0,0,0,.1);
+    }
+
+    /* FOTO PERFIL */
+    .foto-perfil img{
+      width:180px;
+      height:180px;
+      object-fit:cover;
+      border-radius:50%;
+      border:6px solid #0a3d91;
+      box-shadow:0 10px 20px rgba(0,0,0,.2);
+    }
+
+    .contacto-iconos{
+      display:flex;
+      gap:15px;
+      margin-top:15px;
+      flex-wrap:wrap;
+    }
+    .icono{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      padding:10px 18px;
+      border-radius:30px;
+      text-decoration:none;
+      font-weight:600;
+      color:#fff;
+      box-shadow:0 8px 20px rgba(0,0,0,.15);
+      transition:.3s;
+    }
+    .icono i{
+      font-size:18px;
+    }
+    .icono:hover{
+      transform:translateY(-3px);
+    }
+    .telefono{
+      background:linear-gradient(135deg,#25d366,#128c7e);
+    }
+    .correo{
+      background:linear-gradient(135deg,#4da3ff,#0a3d91);
+    }
+
+    .habilidad{
+      background:#eef3ff;
+      padding:8px 12px;
+      border-radius:10px;
+      margin-bottom:8px;
+      font-weight:600;
+    }
+
+    /* FOOTER */
+    footer{
+      text-align:center;
+      margin-top:40px;
+      padding:20px 0;
+      color:#555;
+    }
+    .redes-footer{
+      margin-top:10px;
+      display:flex;
+      justify-content:center;
+      gap:25px;
+    }
+    .redes-footer a{
+      font-size:28px;
+      color:#0a3d91;
+      transition:.3s;
+    }
+    .redes-footer a:hover{
+      color:#4da3ff;
+      transform:scale(1.2);
+    }
+  </style>
+</head>
+
+<body>
+<div class="container py-5">
+
+  <!-- PERFIL -->
+  <div class="card p-4 mb-4">
+    <div class="row align-items-center">
+
+      <!-- FOTO -->
+      <div class="col-md-4 text-center mb-3 mb-md-0">
+        <div class="foto-perfil">
+          <img src="imagen.jpeg" alt="Foto de Jesús Sabas Castañeda">
+        </div>
+      </div>
+
+      <!-- INFO -->
+      <div class="col-md-8">
+        <h1>Jesús Sabas Castañeda</h1>
+        <h5 class="text-muted">Administración</h5>
+        <p class="mb-2">🇲🇽 México | Nacionalidad Mexicana</p>
+
+        <div class="contacto-iconos">
+          <a href="tel:7209254590" class="icono telefono">
+            <i class="fa-solid fa-phone"></i>
+            <span>720 925 4590</span>
+          </a>
+          <a href="mailto:jesussababas945@gmail.com" class="icono correo">
+            <i class="fa-solid fa-envelope"></i>
+            <span>jesussababas945@gmail.com</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SOBRE MI -->
+  <div class="row">
+    <div class="col-md-6 mb-4">
+      <div class="card p-4 h-100">
+        <h4 class="titulo">Sobre mí</h4>
+        <p>
+          Administrador con experiencia en marketing y publicidad.
+          Responsable, organizado y adaptable a distintos entornos laborales.
+        </p>
+      </div>
+    </div>
+
+    <!-- INFO PERSONAL -->
+    <div class="col-md-6 mb-4">
+      <div class="card p-4 h-100">
+        <h4 class="titulo">Información personal</h4>
+        <ul class="list-unstyled">
+          <li><strong>Edad:</strong> 18 años</li>
+          <li><strong>Fecha de nacimiento:</strong> 22/12/2006</li>
+          <li><strong>Puesto:</strong> Administrador</li>
+          <li><strong>Empresa:</strong> Ciberhuman</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCIA -->
+  <div class="card p-4 mb-4">
+    <h4 class="titulo">Experiencia laboral</h4>
+    <h6>Ciber Human</h6>
+    <p>Administración (2025 - 2026)</p>
+    <hr>
+    <h6>Coppel</h6>
+    <p>Publicidad y atención al cliente</p>
+    <hr>
+    <h6>G-Gis Birria</h6>
+    <p>Marketing y difusión</p>
+  </div>
+
+  <!-- HABILIDADES -->
+  <div class="card p-4 mb-4">
+    <h4 class="titulo">Habilidades</h4>
+    <div class="habilidad">Trabajo bajo presión</div>
+    <div class="habilidad">Determinación</div>
+    <div class="habilidad">Bases de datos</div>
+    <div class="habilidad">HTML – 70%</div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Jesús Sabas Castañeda | 🇲🇽 México
+    <div class="redes-footer">
+      <a href="https://www.facebook.com/share/16qLDEzm55/" target="_blank">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/sac.jesus?igsh=YWlhazZ2NW52cXI5" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
